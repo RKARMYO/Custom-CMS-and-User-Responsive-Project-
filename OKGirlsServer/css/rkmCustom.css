@@ -1,0 +1,25 @@
+.newsDelete
+{
+	color: red;
+}
+.newsEdit
+{
+	color: blue;
+}
+.newsDelete:hover,.newsEdit:hover
+{
+	cursor: pointer;
+}
+tr:nth-child(even)
+{
+	background-color:rgba(0,0,0,0.1);
+}
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+th
+{
+	text-align: center;
+}
