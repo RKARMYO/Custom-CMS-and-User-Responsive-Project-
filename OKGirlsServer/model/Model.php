@@ -10,8 +10,8 @@ header("Access-Control-Allow-Origin:*");
 		    try
 		    {
 		      $this->pdo = new PDO(
-		        "mysql:host=localhost;dbname=mmsoftwa_okBook;charset=utf8", 
-		        "mmsoftwa_okbook", "MJWctUKM56ZZGnF", [
+		        "mysql:host=localhost;dbname=test;charset=utf8", 
+		        "root", "", [
 		          PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
 		          PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 		          PDO::ATTR_EMULATE_PREPARES => false,
